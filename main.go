@@ -14,7 +14,7 @@
 
 package main
 
-import "github.com/spf13/myPass/cmd"
+import "myPass-cmd/cmd"
 
 func main() {
 	cmd.Execute()
