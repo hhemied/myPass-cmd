@@ -31,8 +31,8 @@ var createCmd = &cobra.Command{
 	Short: "Create a new strong password",
 	Long: `create a new password which will be stored in your secrets. For example:
 
-myPass create -> for interaction
-myPass create [username] [email] [website] -> no interaction`,
+myPass-cmd create -> for interaction
+myPass-cmd create [username] [email] [website] -> no interaction`,
 	Run: func(cmd *cobra.Command, args []string) {
 		rand.Seed(time.Now().UnixNano())
 		writeToStore()
@@ -78,7 +78,7 @@ func passGenerator() []string {
 	var ASCI = "QWERTYUIOPLKJHGFDSAZXCVBNMmnbvcxzasdfghjklopiuytrewq7869543210"
 	var Sign = "#!@&()_-][><~;{}"
 	var Pass = []string{}
-	for i := 0; i < 8; i++ {
+	for i := 0; i < 11; i++ {
 		Pass = append(Pass, string(ASCI[rand.Intn(len(ASCI))]))
 	}
 	for i := 0; i < rand.Intn(3); i++ {

@@ -28,8 +28,8 @@ var listCmd = &cobra.Command{
 	Short: "Print stored passwords",
 	Long: `Print out all passwords and secrets with its related data, > can be used with pipline | . For example:
 
-myPass list
-mypass list > [filename].`,
+myPass-cmd list
+mypass-cmd list > [filename].`,
 	Run: func(cmd *cobra.Command, args []string) {
 		listSecrets()
 	},
