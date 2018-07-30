@@ -1,8 +1,8 @@
 # For testing
 ### Download the suitable binary
 #### GNU/Linux:
-https://mega.nz/#!fDQQ0AbJ!AXosj4udgDKq0t2GN1gkd38nw96EouAEFZrDNZKMgSc
+https://bit.ly/2v2pp2h
 #### OSX: 
-https://mega.nz/#!uCZ0zYqQ
+https://bit.ly/2uZJ1nQ
 #### Windows: 
-https://mega.nz/#!WKBk2SCC
+https://bit.ly/2M4lclv
