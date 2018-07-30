@@ -78,7 +78,7 @@ func passGenerator() []string {
 	var ASCI = "QWERTYUIOPLKJHGFDSAZXCVBNMmnbvcxzasdfghjklopiuytrewq7869543210"
 	var Sign = "#!@&()_-][><~;{}"
 	var Pass = []string{}
-	for i := 0; i < 11; i++ {
+	for i := 0; i < 15; i++ {
 		Pass = append(Pass, string(ASCI[rand.Intn(len(ASCI))]))
 	}
 	for i := 0; i < rand.Intn(3); i++ {
