@@ -1,3 +1,5 @@
+# IMPORTANT
+This repo is outdated and was build initially for testing
 # For testing
 ### Download the suitable binary
 #### GNU/Linux:
